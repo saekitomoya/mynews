@@ -95,13 +95,13 @@ return [
     'numeric' => 'The :attribute must be a number.',
     'present' => 'The :attribute field must be present.',
     'regex' => 'The :attribute format is invalid.',
-    ':attribute' => 'The :attribute field is :attribute.',
-    ':attribute_if' => 'The :attribute field is required when :other is :value.',
-    ':attribute_unless' => 'The :attribute field is required unless :other is in :values.',
-    ':attribute_with' => 'The :attribute field is required when :values is present.',
-    ':attribute_with_all' => 'The :attribute field is required when :values are present.',
-    ':attribute_without' => 'The :attribute field is required when :values is not present.',
-    ':attribute_without_all' => 'The :attribute field is required when none of :values are present.',
+    'required' => 'The :attribute field is required.',
+    'required_if' => 'The :attribute field is required when :other is :value.',
+    'required_unless' => 'The :attribute field is required unless :other is in :values.',
+    'required_with' => 'The :attribute field is required when :values is present.',
+    'required_with_all' => 'The :attribute field is required when :values are present.',
+    'required_without' => 'The :attribute field is required when :values is not present.',
+    'required_without_all' => 'The :attribute field is required when none of :values are present.',
     'same' => 'The :attribute and :other must match.',
     'size' => [
         'numeric' => 'The :attribute must be :size.',
@@ -145,9 +145,6 @@ return [
     |
     */
 
-    'attributes' => [
-         'title' => 'タイトル',
-        'body' => '本文'
-        ],
+    'attributes' => [],
 
 ];
